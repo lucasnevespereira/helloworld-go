@@ -40,4 +40,9 @@
 
 - #### What does import "fmt" means ?
 
-* #### How is main.go organized ?
+  "fmt" is a shorten for the word "format" and it is a standard library of go.
+  This library is mostly used to print out information to the terminal/console.
+  We used the import statement to gain access to it.
+  To find more go packages go here: https://golang.org/pkg/
+
+- #### How is main.go organized ?
