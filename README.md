@@ -26,7 +26,7 @@
 
   - Attention: there is 2 types of packages in go.
 
-    -- Executable -> Generates a file we can run
+    -- Executable -> Generates a file we can run <br>
     -- Reusable -> Contains "helpers" code. Used to put reusable logic.
 
   - How do we now if what kind of package we are building ?
