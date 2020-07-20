@@ -2,7 +2,7 @@
 
 ### Notes about GO
 
-- How do we run code in GO ?
+- #### How do we run code in GO ?
 
   By using ``` go run ``` command.
   
@@ -18,10 +18,27 @@
     - ``` go get ```     -> Downloads the source code of a package.
     - ``` go test ```    -> Runs tests associated with a go project.
 
-- What does <b>package main<b> means ?
+- #### What does <b>package main<b> means ?
 
-- What does <b>import "fmt"<b> means ?
+  We can think of the word package as being like a project or a workspace.
+  A package can have mutliple go files that are somehow related one to another.
+  These related files all must declare in what package they are in. That's why we need to start a go file by ```package < Package Name > ``` like ``` package main ```. 
 
-- Why do we need a <b>func main()<b> ?
+    - Attentuion: there is 2 types of packages in go. 
 
-- How is <b>main.go<b> organized ?
+     -- Executable -> Generates a file we can run
+     -- Reusable   -> Contains "helpers" code. Used to put reusable logic.
+
+    - How do we now if what kind of package we are building ? 
+
+      That's actually easy. For executable package we use the name ``` main ``` so ``` package main ```. 
+
+      <b>!Important:<b> 
+      Resuming to generate a executable file we need to use ```package main``` , otherwise we will not be able to run our files because it will be seen has an reusable package. 
+
+      And that's also the reason we need a ```func main()```. 
+
+- #### What does <b>import "fmt"<b> means ?
+
+
+- #### How is <b>main.go<b> organized ?
