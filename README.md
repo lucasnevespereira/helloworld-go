@@ -46,3 +46,16 @@
   To find more go packages go here: https://golang.org/pkg/
 
 - #### How is main.go organized ?
+```
+main.go
+
+// Package declaration
+package main
+
+// Import other packages that we need
+import "fmt"
+
+// Declare functions, add logic
+func main(){}
+
+```
